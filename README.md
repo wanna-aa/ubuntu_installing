@@ -5,8 +5,9 @@ Ubuntu 22.04 + NVIDIA Driver + CUDA 11.8 + cuDNN 安装指南
 
 0. 安装前检查
 0.1 确认显卡型号
+```bash
 lspci | grep -i nvidia
-
+```
 0.2 （可选）更新系统
 sudo apt update
 sudo apt -y upgrade
